@@ -21,6 +21,7 @@ abstract class DAO<TModel, TEntity> (val manager: EntityManager, val entityType:
 
     private fun recuperarEntityPeloId(id: Int): TEntity {
         val query = manager.createQuery("FROM ${entityType.simpleName} WHERE id=:id", entityType)
+        query.setParameter("id", id)
         return query.singleResult
     }
 
