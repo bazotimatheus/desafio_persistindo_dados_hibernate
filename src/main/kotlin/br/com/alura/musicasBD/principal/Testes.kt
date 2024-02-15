@@ -3,8 +3,8 @@ package br.com.alura.musicasBD.principal
 import br.com.alura.musicasBD.dados.AlbumDAO
 import br.com.alura.musicasBD.dados.Banco
 import br.com.alura.musicasBD.dados.BandaDAO
-import br.com.alura.musicasBD.modelos.Album
-import br.com.alura.musicasBD.modelos.Banda
+//import br.com.alura.musicasBD.modelos.Album
+//import br.com.alura.musicasBD.modelos.Banda
 
 fun main(){
 
